@@ -11,6 +11,8 @@ import { InteriordesignComponent } from './navitatingcomponents/interiordesign/i
 import { PropertyComponent } from './navitatingcomponents/property/property.component';
 import { HomeComponent } from './navitatingcomponents/home/home.component';
 import { BannerComponent } from './navitatingcomponents/home/banner/banner.component';
+import { CategoryComponent } from './navitatingcomponents/home/category/category.component';
+import { WeekendComponent } from './navitatingcomponents/home/weekend/weekend.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { BannerComponent } from './navitatingcomponents/home/banner/banner.compo
     InteriordesignComponent,
     PropertyComponent,
     HomeComponent,
-    BannerComponent
+    BannerComponent,
+    CategoryComponent,
+    WeekendComponent
   ],
   imports: [
     BrowserModule,
