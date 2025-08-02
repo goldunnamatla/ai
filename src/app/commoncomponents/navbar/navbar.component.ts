@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent {
-
+  nav={
+  item1:'Categories',
+  item2:'Furniture',
+  item3:'Interior Design',
+  item4:'Property'
+  }
 }
